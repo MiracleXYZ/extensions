@@ -21,6 +21,31 @@
       "mode": "view"
     },
     {
+      "name": "email-delivery",
+      "title": "Manage Email Domains and Approved Senders",
+      "subtitle": "Oracle Cloud",
+      "description": "Manage Email Delivery",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "view",
+          "type": "dropdown",
+          "placeholder": "View",
+          "required": true,
+          "data": [
+            {
+              "title": "Email Domains",
+              "value": "email-domains"
+            },
+            {
+              "title": "Approved Senders",
+              "value": "approved-senders"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "nosql-database",
       "title": "Manage NoSQL Databases",
       "subtitle": "Oracle Cloud",
@@ -43,7 +68,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.104.1",
+    "@raycast/api": "^1.104.5",
     "@raycast/utils": "^2.2.2",
     "filesize": "^11.0.2",
     "oci-sdk": "^2.136.1"
