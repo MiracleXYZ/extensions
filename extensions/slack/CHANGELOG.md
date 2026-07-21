@@ -1,5 +1,9 @@
 # Slack Changelog
 
+## [Add Slack Huddle link AI tool] - 2026-07-21
+
+- Add a `get-huddle-link` AI tool that returns a Huddle join link for a channel, DM, group DM, or user.
+
 ## [Fix AI signatures on file uploads] - 2026-07-21
 
 - Show the “Sent via Raycast” signature on Slack messages that include uploaded files.
