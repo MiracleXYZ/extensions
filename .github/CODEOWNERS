@@ -744,6 +744,7 @@
 /extensions/encoding-tools                                          @eth-p
 /extensions/end-of-life                                             @csigritz @sebdanielsson
 /extensions/endel                                                   @zach-fuller @pernielsentikaer
+/extensions/english-irregular-verbs                                 @Oward-Studio
 /extensions/ens-name-lookup                                         @Yukaii
 /extensions/ensk-is                                                 @jokull
 /extensions/ente-auth                                               @chkpwd @albarin @wires5210 @xmok @jakoss
