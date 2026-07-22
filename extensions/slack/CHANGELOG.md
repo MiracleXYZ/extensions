@@ -1,5 +1,9 @@
 # Slack Changelog
 
+## [Broadcast Slack thread replies to channels] - 2026-07-21
+
+- Add an optional `replyBroadcast` flag to the `reply-thread` AI tool to also send important thread replies to the channel.
+
 ## [Add Slack reaction AI tool] - 2026-07-21
 
 - Add an `add-reaction` AI tool that adds an emoji reaction to a Slack message and returns its permalink.
